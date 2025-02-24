@@ -116,6 +116,36 @@ button:hover {
     margin-bottom: 15px;
 }
 
+/* Hobbies Section */
+.hobbies-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.hobbies-container {
+    display: flex;
+    justify-content: center;
+    gap: 250px; 
+    margin-top: 20px;
+    flex-wrap: wrap; 
+}
+
+.hobby {
+    max-width: 300px; 
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.hobby img {
+    width: 100%; 
+    border-radius: 10px; 
+}
+
+.hobby p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+}
 
 /* Footer Styling */
 footer {
